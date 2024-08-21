@@ -1,0 +1,40 @@
+<div class="wrapper">
+  <nav class="navbar navbar-expand-lg navbar-light bg-custom sticky-top">
+    <a class="navbar-brand" href="#">
+      <img src="assets/logo.png" alt="Logo" class="logo">
+    </a>
+    <button class="navbar-toggler avocado-nav" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/juice" routerLinkActive="active">العصائر والكوكتيل</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/sandwich" routerLinkActive="active">الساندويشات</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/sides" routerLinkActive="active">الطلبات الجانبية</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-4 content">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="to-top" (click)="scrollToTop()" [ngClass]="{ 'show-scrollTop': windowScrolled }">
+    <div class="progress-circle" [ngStyle]="{ 'background': getProgressStyle() }">
+      <i class="bi bi-chevron-up"></i>
+    </div>
+  </div>
+
+  <footer class="bg-custom text-center py-3 mt-4 footer" style="color: #E0D11F; background-color: #652D0B; font-size: 12px">
+    <div class="container">
+      <p class="mb-0">© 2024 مطعم أفوكادو, جميع الحقوق محفوظة</p>
+      <p class="mb-0">فروعنا: شارع عبدالله غوشة, شارع المدينة المنورة </p>
+      <p class="mb-0">للتوصيل والتواصي: <a href="tel:065001050" style="text-decoration: none; color: white">065001050</a></p>
+    </div>
+  </footer>
+</div>

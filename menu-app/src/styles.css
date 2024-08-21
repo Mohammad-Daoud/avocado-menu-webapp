@@ -1,0 +1,265 @@
+/* Import FontAwesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url("https://fonts.googleapis.com/css?family=Cairo");
+
+body {
+  display: grid;
+  font-family: "Cairo", sans-serif !important;
+  direction: rtl;
+  text-align: right;
+  max-width: 100% !important;
+}
+html, body {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.to-top {
+  bottom: 0;
+  cursor: pointer;
+  margin: 30px;
+  position: fixed;
+  right: 0;
+  opacity: 0;
+  width: 60px;
+  height: 60px;
+}
+
+.show-scrollTop {
+  opacity: 1 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.progress-circle {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  border: 2px solid #652D0B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-inner {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(#71BF44 0%, transparent 0%);
+  clip-path: inset(0 0 0 0 round 50%);
+}
+
+.progress-circle i {
+  font-size: 24px;
+  color: #652D0B;
+  z-index: 1;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Makes sure the wrapper takes the full height of the viewport */
+}
+
+.content {
+  flex: 1; /* Allows the content to grow and take up remaining space */
+}
+
+footer {
+  background-color: #652D0B;
+  color: #E0D11F;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+.body {
+  background-color: #71BF44;
+}
+
+.container-fluid {
+  padding: 0; /* Remove padding to allow full width */
+}
+
+.responsive-container {
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgb(101, 45, 11) 0px 1px 2px 0px !important;
+  border-radius: 0.5rem;
+  color: #652D0B !important;
+  width: 100%; /* Ensure the card takes up full width */
+  margin: 0; /* Remove margin if necessary */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%; /* Ensure card body takes full width */
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0.5rem; /* Adds space between image and text */
+}
+
+.img-container img {
+  width: 100px; /* Adjusts image size */
+  height: auto;
+  object-fit: cover;
+  padding-top: 1rem;
+}
+
+.prices span {
+  display: block;
+  font-size: 1rem;
+  color: #652D0B !important;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .card {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .img-container {
+    padding: 1rem;
+  }
+
+  .img-container img {
+    width: 100px; /* Ensures image size is consistent in mobile view */
+    height: auto;
+  }
+
+  .card-body {
+    width: 100%; /* Adjusts card body width to full width */
+    padding: 0.5rem;
+    text-align: center; /* Center the text on mobile */
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    color: #652D0B;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    color: #333;
+    object-fit: cover;
+    padding: 1rem;
+  }
+}
+
+.navbar-toggler.avocado-nav {
+  margin-left: 15px;
+  background-color: #E0D11F;
+}
+
+.navbar.bg-custom {
+  background-color: #652D0B !important;
+}
+
+.navbar-brand .logo {
+  width: 50px;
+}
+
+.navbar-nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  box-shadow: rgb(101, 45, 11) 0px 1px 2px 0px !important;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 15px;
+  color: #E0D11F !important;
+  background-color: #652D0B !important;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active {
+  color: #652D0B !important;
+  background-color: #E0D11F !important;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-link {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.accordion-custom {
+  width: 100%; /* Ensures the accordion takes up full width */
+}
+
+.accordion-custom .card-header {
+  background-color: #652D0B; /* Header background color */
+  color: #E0D11F;
+  display: flex;
+  justify-content: center; /* Center content */
+  align-items: center; /* Center content vertically */
+  padding: 0; /* Remove default padding */
+  width: 100%; /* Ensure the header takes up full width */
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+.accordion-custom .btn-link {
+  color: #E0D11F!important;
+  text-decoration: none!important;
+  font-size: 1.2rem!important;
+  font-weight: bold!important;
+  width: 100%!important; /* Button takes full width */
+  text-align: center!important;
+  background-color: transparent!important; /* Background color for button */
+  border: none!important; /* Remove default border */
+  padding: 10px!important; /* Adjust padding as needed */
+}
+
+.accordion-custom .btn-link.active {
+  background-color: #E0D11F!important; /* Active button background color */
+  color: #652D0B!important; /* Active button text color */
+}
+
+.card {
+  width: 100%; /* Ensure the card takes up full width */
+}
+
+.card-body {
+  width: 100%; /* Ensure the card body takes up full width */
+  margin: 0; /* Remove margin if necessary */
+}

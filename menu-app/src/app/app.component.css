@@ -1,0 +1,10 @@
+.navbar-collapse {
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.navbar-collapse.show {
+  max-height: 500px; /* Set a height that accommodates your content */
+}
+
+

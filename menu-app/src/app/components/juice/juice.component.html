@@ -1,0 +1,33 @@
+<div class="container m-0" style="font-size:12px ">
+  <div class="special-offer text-center fw-bold">
+    <p class="offer-text">
+      *اي نوع عصير غير موجود على القائمة فيه أكثر من نوعين فاكهة (عدا الرمان واالفوكادو) يتم احتسابه على كيفك.
+    </p>
+    <p class="offer-text">
+      *اي نوع عصير فيه خلط لنوعين فاكهة يتم احتسابه على سعر الفاكهة الأعلى.
+    </p>
+  </div>
+</div>
+
+<div class="responsive-container">
+  <div class="row">
+    <div class="col-6 d-flex justify-content-center mb-4" *ngFor="let juice of juices">
+      <div class="card text-center container">
+        <div class="row no-gutters align-items-center flex-column">
+          <div class="col-12 img-container">
+            <img [src]="juice.imageUrl" alt="{{juice.title}}" class="img-fluid">
+          </div>
+          <div class="col-12 card-body">
+            <h5 class="card-title">{{ juice.title }}</h5>
+            <p class="card-text">{{juice.description}}</p>
+            <div class="prices">
+              <span *ngFor="let attribute of juice.attributes">
+                {{attribute.name}}: {{ attribute.price | number:'1.2-2' }}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

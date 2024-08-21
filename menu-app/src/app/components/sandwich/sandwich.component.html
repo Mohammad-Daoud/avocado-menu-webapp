@@ -1,0 +1,87 @@
+<div class="container m-1" style="font-size:12px ">
+  <div class="special-offer text-center fw-bold">
+    <p class="offer-text">
+      * خليها وجبة مع كولا فقط بـ 1.25 (بطاطـــا + مشـــروب غـــازي + مثومـــة + مخلـــل + هنـــي ماسترد)
+    </p>
+    <p class="offer-text">
+      * خليهـــا وجبـــة مـــع كوكتيـــل أو مـــوز بالحليـــب أو برتقـــال أو ليمـــون أو موهيتـــو فقـــط بــــ 2.00 (بطاطا + عصير + مثومة + مخلل + هني ماسترد).
+    </p>
+  </div>
+</div>
+<div class="container-fluid" style="width: 100%">
+<div #accordionPanel  class="accordion accordion-custom" style="object-fit: fill; width: 100%"  id="sandwichAccordion">
+  <div class="card mb-4 rounded-4" style="background-color: transparent"   *ngFor="let type of sandwichTypes; let i = index">
+    <div class="card-header" id="heading{{i}}"
+
+          style="width: 100%; "
+          (click)="onTabClick(accordionPanel,type)"
+          aria-expanded="true"
+          [attr.aria-controls]="'collapse' + i"
+          [ngClass]="{'active': activeType === type}"
+        >
+      <h2 class="m-2" type="button" style="box-shadow: none; text-align: center">
+        @if(type === 'burgers'){
+          سندويشات البرجر
+        } @else if (type === 'chicken'){
+          سندويشات صدر الدجاج
+        } @else if (type ==='shawerma'){
+          أفوكادو شراك
+        } @else if (type === 'crispy'){
+          سندويشات صدر الدجاج بالقرشلة
+
+        } @else if (type === 'steak'){
+          سندويشات ستيك اللحمة
+
+        } @else {
+          سندويشات أخرى
+        }
+
+      </h2>
+    </div>
+    <div
+      [id]="'collapse' + i"
+      [ngClass]="{'show': activeType === type}"
+      class="collapse"
+      [attr.aria-labelledby]="'heading' + i"
+      data-parent="#sandwichAccordion"
+    >
+      <div class="card-body" style="background-color: #71BF44; " *ngIf="sandwichesByType[type]">
+        <div class="responsive-container">
+          <div class="row">
+            <div
+              class="col-6 d-flex justify-content-center mb-4"
+              *ngFor="let sandwich of sandwichesByType[type]"
+            >
+              <div class="card text-center container">
+                <div class="row no-gutters align-items-center flex-column">
+                  <div class="col-12 img-container">
+                    <img
+                      [src]="sandwich.imageUrl"
+                      alt="{{sandwich.title}}"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-12 card-body">
+                    <h5 class="card-title">{{ sandwich.title }}</h5>
+                    <p class="card-text">{{ sandwich.description }}</p>
+                    <div class="prices">
+                      <span *ngFor="let attribute of sandwich.attributes">
+                        {{ attribute.name ? attribute.name + ':' : '' }}
+                        {{ attribute.price | number: '1.2-2' }}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
