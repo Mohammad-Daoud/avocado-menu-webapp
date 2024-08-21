@@ -1,0 +1,29 @@
+version: '3'
+services:
+    frontend:
+        image: 0xmohammad/avocado-menu-frontend:latest
+        container_name: frontend
+        build:
+            context: ./menu-app
+            dockerfile: Dockerfile
+        volumes:
+            - ./menu-app/nginx.conf:/etc/nginx/conf.d/default.conf
+        ports:
+            - "80:80"
+        networks:
+            - menu-network
+
+    backend:
+        image: 0xmohammad/avocado-menu-server:latest
+        container_name: backend
+        build:
+            context: ./AvocadoMenu
+            dockerfile: Dockerfile
+        ports:
+            - "8080:8080"
+        networks:
+            - menu-network
+
+networks:
+    menu-network:
+        driver: bridge

@@ -1,0 +1,28 @@
+# Node modules
+menu-app/node_modules/
+
+# Build output
+menu-app/dist/
+menu-app/out-tsc/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Spring Boot
+AvocadoMenu/target/
+AvocadoMenu/*.jar
+AvocadoMenu/*.war
+AvocadoMenu/*.ear
+AvocadoMenu/spring.log
+
+# Log files
+*.log
