@@ -14,7 +14,7 @@ services:
             - menu-network
 
     backend:
-        image: 0xmohammad/avocado-menu-server:latest
+        image: 0xmohammad/avocado-menu-backend:latest
         container_name: backend
         build:
             context: ./AvocadoMenu
