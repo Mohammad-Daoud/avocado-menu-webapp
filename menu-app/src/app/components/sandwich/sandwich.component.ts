@@ -8,9 +8,12 @@ import {MenuService} from "../../services/menu.service";
 })
 export class SandwichComponent  {
   sandwichTypes = ['burgers', 'chicken', 'shawerma', 'crispy', 'steak', 'others'];
-  constructor(private  menuService: MenuService)  {}
   sandwichesByType: { [key: string]: any[] } = {};
   activeType: string | null = null;
+
+
+  constructor(private  menuService: MenuService)  {}
+
 
   onTabClick(accordionPanel: HTMLElement, type: string): void {
     this.loadSandwiches(type);
