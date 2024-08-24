@@ -7,12 +7,13 @@ import { SandwichComponent } from './components/sandwich/sandwich.component';
 import { JuiceComponent } from './components/juice/juice.component';
 import { SidesComponent } from './components/sides/sides.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DefaultPageComponent } from './components/default-page/default-page.component';
 
 const routes: Routes = [
   { path: 'sandwich', component: SandwichComponent },
   { path: 'juice', component: JuiceComponent },
   { path: 'sides', component: SidesComponent },
-  { path: '', redirectTo: '/juice', pathMatch: 'full' }
+  { path: '',  component:DefaultPageComponent }
 ];
 
 @NgModule({
@@ -20,7 +21,8 @@ const routes: Routes = [
     AppComponent,
     SandwichComponent,
     JuiceComponent,
-    SidesComponent
+    SidesComponent,
+    DefaultPageComponent
   ],
   imports: [
     BrowserModule,

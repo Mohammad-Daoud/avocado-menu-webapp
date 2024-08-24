@@ -1,0 +1,12 @@
+.menu-option {
+    background-color: white;
+    color: #652D0B !important;
+    font-size: 25px;
+    box-shadow: rgb(101, 45, 11) 0px 4px 8px !important;
+}
+
+.menu-option img {
+    max-height: 125px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+}
