@@ -1,15 +1,15 @@
 <div class="responsive-container">
   <div class="row">
-    <div class="col-6 d-flex justify-content-center mb-4" *ngFor="let juice of sides">
+    <div class="col-6 d-flex justify-content-center mb-4" *ngFor="let side of sides">
       <div class="card text-center container">
         <div class="row no-gutters align-items-center flex-column">
           <div class="col-12 img-container">
-            <img [src]="juice.imageUrl" alt="{{juice.title}}" class="img-fluid">
+            <img referrerPolicy="no-referrer" [src]="side.imageUrl" alt="{{side.title}}" class="img-fluid">
           </div>
           <div class="col-12 card-body">
-            <h5 class="card-title">{{ juice.title }}</h5>
+            <h5 class="card-title">{{ side.title }}</h5>
             <div class="prices">
-              <span *ngFor="let attribute of juice.attributes">
+              <span *ngFor="let attribute of side.attributes">
                 @if(attribute.name){*{{attribute.name}}:} {{ attribute.price | number:'1.2-2' }}
               </span>
             </div>
