@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/products")
+//TODO: MAKE IT MODULAR
 public class ProductController {
 
     @Autowired
@@ -39,5 +40,4 @@ public class ProductController {
         return productService.getAllSides();
     }
 
-    // Add other necessary endpoints...
 }

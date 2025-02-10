@@ -19,6 +19,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+//TODO: make it modular
 public class ProductService {
 
     @Autowired
@@ -58,7 +59,7 @@ public class ProductService {
     private SandwichDTO convertToSandwichDTO(Sandwich sandwich) {
         return SandwichDTO.builder()
                 .title(sandwich.getTitle())
-                .description(sandwich.getDescription()) // Added description mapping
+                .description(sandwich.getDescription())
                 .imageUrl(sandwich.getImageUrl())
                 .attributes(getTree(sandwich.getAttributes()))
                 .type(sandwich.getStype())
@@ -68,7 +69,7 @@ public class ProductService {
     private JuiceDTO convertToJuiceDTO(Juice juice) {
         return JuiceDTO.builder()
                 .title(juice.getTitle())
-                .description(juice.getDescription()) // Added description mapping
+                .description(juice.getDescription())
                 .imageUrl(juice.getImageUrl())
                 .attributes(getTree(juice.getAttributes()))
                 .build();
@@ -91,5 +92,4 @@ public class ProductService {
             return null;
         }
     }
-    // Add other necessary methods...
 }
