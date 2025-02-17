@@ -1,5 +1,15 @@
-FROM openjdk:17-alpine
-COPY target/AvocadoMenu-0.0.1-SNAPSHOT.jar /app.jar
-# Inform Docker that the container is listening on the specified port at runtime.
-EXPOSE 8080
-ENTRYPOINT ["java","-jar","app.jar"]
+FROM openjdk:17-slim as build
+LABEL maintainer="Mohammad Daoud <m.a.daoud99@gmail.com"
+ARG JAR_FILE
+COPY ${JAR_FILE} app.jar
+RUN mkdir -p target/dependency && (cd target/dependency; jar -xf /app.jar)
+
+FROM openjdk:17-slim
+
+VOLUME /tmp
+ARG DEPENDENCY=/target/dependency
+COPY --from=build ${DEPENDENCY}/BOOT-INF/lib /app/lib
+COPY --from=build ${DEPENDENCY}/META-INF /app/META-INF
+COPY --from=build ${DEPENDENCY}/BOOT-INF/classes /app
+
+ENTRYPOINT ["java","-cp","app:app/lib/*","com.avocado.AvocadoMenuApplication"]
