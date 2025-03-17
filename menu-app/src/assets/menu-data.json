@@ -1,0 +1,1337 @@
+{
+  "sides": [
+    {
+      "title": "علبة بطاطا",
+      "attributes": [
+        {
+          "name": "",
+          "price": 1.25
+        }
+      ],
+      "imageUrl": "https://drive.google.com/thumbnail?id=1QD5CwB4RmwrY--V8wORJxyhYRL67bhiS&sz=w1000"
+    },
+    {
+      "title": "علبة بطاطا مع جبنة",
+      "attributes": [
+        {
+          "name": "",
+          "price": 1.5
+        }
+      ],
+      "imageUrl": "https://drive.google.com/thumbnail?id=1_bXOX23UoXgEwfxBVhMhrMWYGMhWF0Cf&sz=w1000"
+    },
+    {
+      "title": "مشروب غازي",
+      "attributes": [
+        {
+          "name": "",
+          "price": 0.45
+        }
+      ],
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Vrs3XLPveyy_ucYi8WysW-PnosfvVin9&sz=w1000"
+    },
+    {
+      "title": "علبة صوص",
+      "attributes": [
+        {
+          "name": "",
+          "price": 0.25
+        }
+      ],
+      "imageUrl": "https://drive.google.com/thumbnail?id=1z1C0kLe1MEnlL7JpP3WqzF57g_7OT_rp&sz=w1000"
+    },
+    {
+      "title": "اضافة عسل",
+      "attributes": [
+        {
+          "name": "",
+          "price": 0.5
+        }
+      ],
+      "imageUrl": "https://drive.google.com/thumbnail?id=10HQY2B3LwqhbE4z5YRducjyWRf5kLLog&sz=w1000"
+    },
+    {
+      "title": "اضافة قشطة عادية و عسل و مكسرات",
+      "attributes": [
+        {
+          "name": "",
+          "price": 1
+        }
+      ],
+      "imageUrl": "https://drive.google.com/thumbnail?id=10HQY2B3LwqhbE4z5YRducjyWRf5kLLog&sz=w1000"
+    },
+    {
+      "title": "اضافة قشطة شامية و عسل و مكسرات",
+      "attributes": [
+        {
+          "name": "",
+          "price": 1.5
+        }
+      ],
+      "imageUrl": "https://drive.google.com/thumbnail?id=10HQY2B3LwqhbE4z5YRducjyWRf5kLLog&sz=w1000"
+    }
+  ],
+  "juices": [
+    {
+      "title": "أفوكادو سادة",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1jRbZpf64cpCS104aMHVR98bFaJhPq2um&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3
+        },
+        {
+          "name": "كبير",
+          "price": 5
+        },
+        {
+          "name": "لتر",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "title": "أفوكادو بالقشطة الشامية والعسل والمكسرات",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1apUicTXwAJu8fqseWgnmRwuArwldjhYL&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3.5
+        },
+        {
+          "name": "كبير",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "title": "أفوكادو بالقشطة العادية والعسل والمكسرات",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1AhPHa2YWcPz2kS-CBQJM8aZAJE-iOJig&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3.25
+        },
+        {
+          "name": "كبير",
+          "price": 5.5
+        }
+      ]
+    },
+    {
+      "title": "أفوكادو مع قطع",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1qyWxrPW4XIezarfvTnUuyy1ZkZ8vjo_x&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3.5
+        },
+        {
+          "name": "كبير",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "title": "كوكتيل مخلوط",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1c-uT1DQvOJRAe5kT6f2JOEy8-wGvS9CJ&sz=w1000",
+      "description": "مانجا + فراولة + موز بالحليب + جوافة",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 1.75
+        },
+        {
+          "name": "كبير",
+          "price": 2.5
+        },
+        {
+          "name": "لتر",
+          "price": 3.5
+        }
+      ]
+    },
+    {
+      "title": "كوكتيل طبقات",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1lS_ML3MMloknRiABAJUYIqO1DkMrm9-Y&sz=w1000",
+      "description": "مانجا + فراولة + موز بالحليب",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "title": "كوكتيل مع قطع",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1IRj9YR7BzNE6AChV9pii17gC-yPmd8p_&sz=w1000",
+      "description": "مانجا + فراولة + موز بالحليب + قطع فواكه",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2
+        },
+        {
+          "name": "كبير",
+          "price": 3.7
+        }
+      ]
+    },
+    {
+      "title": "كوكتيل سبيشل",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1IRj9YR7BzNE6AChV9pii17gC-yPmd8p_&sz=w1000",
+      "description": "مانجا + فراولة + موز بالحليب + قطع فواكه + قشطة عادية وعسل ومكسرات",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.5
+        },
+        {
+          "name": "كبير",
+          "price": 5
+        }
+      ]
+    },
+    {
+      "title": "موز + حليب",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1n6u_3lXzf68nWn5YSHge_GgTV7qYLoN2&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 1.75
+        },
+        {
+          "name": "كبير",
+          "price": 2.5
+        },
+        {
+          "name": "لتر",
+          "price": 3.5
+        }
+      ]
+    },
+    {
+      "title": "مانجا",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1NjgWLuNGNHcEXq-UOo6FJVGLghc5UdgH&sz=w1000",
+      "description": "مانجا طبيعية معلبة",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "title": "فرغلي",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1NjgWLuNGNHcEXq-UOo6FJVGLghc5UdgH&sz=w1000",
+      "description": "مانجا طبيعية مصرية مجمدة",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.5
+        },
+        {
+          "name": "كبير",
+          "price": 4
+        },
+        {
+          "name": "لتر",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "title": "مانجا طبيعي",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1NjgWLuNGNHcEXq-UOo6FJVGLghc5UdgH&sz=w1000",
+      "description": "مانجا طبيعية طازجة",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3.5
+        },
+        {
+          "name": "كبير",
+          "price": 5
+        },
+        {
+          "name": "لتر",
+          "price": 7
+        }
+      ]
+    },
+    {
+      "title": "مانجالوز",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1epw5tTvRwYqgDMRnJ-gB_5V_gO3zHCY2=w1000",
+      "description": "مانجا + لوز",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3
+        },
+        {
+          "name": "كبير",
+          "price": 4.5
+        },
+        {
+          "name": "لتر",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "title": "فراولة",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1d_PFAXJ-Ukg4h78EakjmqbOnZb20MiMi&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "فراولة + ريحان",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Flo653sTC4X04udAMOzS9sLQdTIT3Hxr&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "فراولة جوزهند",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1d_PFAXJ-Ukg4h78EakjmqbOnZb20MiMi&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "سومو",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1cqNrM_OGQQJsRkk7DNnL_MCSxwA0CFbQ&sz=w1000",
+      "description": "فراولة + شوكولاته",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "برتقال",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1mNiXCJxx9sIpBJcCNOv-KR4XoWvB11aK&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 1.75
+        },
+        {
+          "name": "كبير",
+          "price": 2.5
+        },
+        {
+          "name": "لتر",
+          "price": 3.5
+        }
+      ]
+    },
+    {
+      "title": "ليمون",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Bpv3Pbn6B9EwxnevWgajOwQx4fBFk0jN&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 1.75
+        },
+        {
+          "name": "كبير",
+          "price": 2.5
+        },
+        {
+          "name": "لتر",
+          "price": 3.5
+        }
+      ]
+    },
+    {
+      "title": "ليمون + نعنع",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Wnh1VTOomi7j4sfWSnh4IqucwfCZLx4H&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "ليمون + ريحان",
+      "imageUrl": "https://lh3.googleusercontent.com/d/11dhVUHaLCC5AEYR6W-cd6cbsZ_Sil2T3=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "رمان",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1F0usQOxOHx33vIWAH_guofFswGp1uC7o=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3.5
+        },
+        {
+          "name": "كبير",
+          "price": 6
+        },
+        {
+          "name": "لتر",
+          "price": 7
+        }
+      ]
+    },
+    {
+      "title": "منّ وسلوى",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1xzRo4fn3JZKuXNaner-5xMqDTXKBVKWv=w1000",
+      "description": "لوز + فستق حلبي + كريمة + هيل",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3
+        },
+        {
+          "name": "كبير",
+          "price": 4.5
+        },
+        {
+          "name": "لتر",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "title": "فراولة + حليب",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1aCzjqvPl9USIjjEv199Ey9Z4uyRyGBzA&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "جزر",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Ea3oudmRLl5iiJTdFzMUMhbnvLIFxjiI&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "أناناس",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1bYXUYIHnZEZJA0aKMXsLYBS9wUo7L7z_&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "أناناس + برتقال + تانج",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1iuUiAEHMTJdSz0hJ0-HDO7QHP__xl7Ec&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "بيناكولادا",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1bYXUYIHnZEZJA0aKMXsLYBS9wUo7L7z_&sz=w1000",
+      "description": "أناناس مع جوزهند",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "دراق + برتقال + تانج",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1ZfyFY9jHm-sq4DnikaAFun3ODZS2L3E5&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "شمام",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1b4SYku5rnBoexHcu3EPyxzFLraTtHxAr&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "شمام + برتقال + تانج",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1a0S7lDqzl2t7hKm2-KjYKaPE2Y9KF1Dn&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "شمام + أناناس",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1bYXUYIHnZEZJA0aKMXsLYBS9wUo7L7z_&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "شمام + مانجا",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1NjgWLuNGNHcEXq-UOo6FJVGLghc5UdgH&sz=w1000",
+      "description": "مانجا طبيعية مصرية مجمدة",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.5
+        },
+        {
+          "name": "كبير",
+          "price": 4
+        },
+        {
+          "name": "لتر",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "title": "شمام + جوزهند",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1bYXUYIHnZEZJA0aKMXsLYBS9wUo7L7z_&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "بطيخ",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1PqBfGjJ61z7pSgz665y7S5dgyIKABAVe&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "مرحبمبو",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1n6u_3lXzf68nWn5YSHge_GgTV7qYLoN2&sz=w1000",
+      "description": "موز + حليب + جوزهند",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "فتسق حلبي",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1xzRo4fn3JZKuXNaner-5xMqDTXKBVKWv=w1000",
+      "description": "فستق حلبي + كريمة",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3.5
+        },
+        {
+          "name": "كبير",
+          "price": 6
+        },
+        {
+          "name": "لتر",
+          "price": 7
+        }
+      ]
+    },
+    {
+      "title": "أوريو",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1sQfrRX_-3J4vwYBahK4LnFALnqnZMzdR=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3
+        },
+        {
+          "name": "كبير",
+          "price": 4.5
+        },
+        {
+          "name": "لتر",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "title": "تمر + حليب",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1TKa69jEurAe8HvT65S3eyOMKKdMahL2x&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3
+        },
+        {
+          "name": "كبير",
+          "price": 4.5
+        },
+        {
+          "name": "لتر",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "title": "قلب الأسد سادة",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1dwbLMzeAfMonR60SJfGOXrQaOksXXHg2=w1000",
+      "description": "تمر + جرجير",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.5
+        },
+        {
+          "name": "كبير",
+          "price": 4
+        },
+        {
+          "name": "لتر",
+          "price": 5
+        }
+      ]
+    },
+    {
+      "title": "قلب الأسد مع قشطة عادية وعسل ومكسرات",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1dwbLMzeAfMonR60SJfGOXrQaOksXXHg2=w1000",
+      "description": "تمر + جرجير",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3
+        },
+        {
+          "name": "كبير",
+          "price": 5
+        }
+      ]
+    },
+    {
+      "title": "قلب الأسد مع قشطة شامية وعسل ومكسرات",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1dwbLMzeAfMonR60SJfGOXrQaOksXXHg2=w1000",
+      "description": "تمر + جرجير",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3.5
+        },
+        {
+          "name": "كبير",
+          "price": 5.5
+        }
+      ]
+    },
+    {
+      "title": "شمندوز",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1V8Ef4WGgf3jDtO7ufKWlybn2CIx_8OmU&sz=w1000",
+      "description": "شمندر + موز",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3
+        },
+        {
+          "name": "كبير",
+          "price": 4.5
+        },
+        {
+          "name": "لتر",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "title": "تفاح",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1ALPI8KFrOvye9ESGiLhAXjOAmhwfnT2L&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3
+        },
+        {
+          "name": "كبير",
+          "price": 4.5
+        },
+        {
+          "name": "لتر",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "title": "موهيتو",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1CmvfxQ5yFJIL4iF7Em5BL0WJP_FtBdeb&sz=w1000",
+      "description": "رمان ، ليمون نعنع ، بلو بيري",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 1.5
+        },
+        {
+          "name": "كبير",
+          "price": 2.5
+        },
+        {
+          "name": "لتر",
+          "price": 3
+        }
+      ]
+    },
+    {
+      "title": "كوكتيل فواكه على كيفك",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1NEknDGxlqHusnuMuoCnxXwvQFDItu1DF&sz=w1000",
+      "description": "اختر على كيفك خليط من كافة الفواكة المتوفرة",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 3
+        },
+        {
+          "name": "كبير",
+          "price": 4.5
+        },
+        {
+          "name": "لتر",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "title": "سلطة فواكه",
+      "imageUrl": "https://lh3.googleusercontent.com/d/14I__hz1nADwejAYZHpaFBqI6aKUwDJRD=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "كاسة",
+          "price": 2
+        },
+        {
+          "name": "صحن",
+          "price": 3.5
+        }
+      ]
+    },
+    {
+      "title": "سلطة فواكه سبيشل",
+      "imageUrl": "https://lh3.googleusercontent.com/d/14I__hz1nADwejAYZHpaFBqI6aKUwDJRD=w1000",
+      "description": " سلطه فواكه مع قشطة عادية وعسل ومكسرات ",
+      "attributes": [
+        {
+          "name": "كاسة",
+          "price": 2.5
+        },
+        {
+          "name": "صحن",
+          "price": 4.5
+        },
+        {
+          "name": "كاسة مع قشطة شامية",
+          "price": 3
+        },
+        {
+          "name": "صحن مع قشطة شامية ",
+          "price": 5.5
+        }
+      ]
+    }
+  ],
+  "sandwiches/burgers": [
+    {
+      "title": "برجر لحمة",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1VN9kQM8vNym10Al8vVDqr2wEM4lMcuBM&sz=w1000",
+      "description": "100 غرام لحمة صافي + صلصة + خس + بندورة + بصل + جبنة + سلامي",
+      "attributes": [
+        {
+          "name": "الساندويش",
+          "price": 1.85
+        }
+      ],
+      "type": "burgers"
+    },
+    {
+      "title": "برجر شينو لحمة",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Aw_CPwdArusf0xqd1ycc8LI9NUMUqgAH&sz=w1000",
+      "description": "100 غرام لحمة صافي + صلصة شينو المميزة + خس + بندورة + جبنة ",
+      "attributes": [
+        {
+          "name": "الساندويش",
+          "price": 1.85
+        }
+      ],
+      "type": "burgers"
+    },
+    {
+      "title": "برجر سكالوب ",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Am6_9EdhHay8RKyM1dBD86G4yueq-Leb&sz=w1000",
+      "description": " 100 غرام سكالوب + خس + بندورة + جبنة + صلصة",
+      "attributes": [
+        {
+          "name": "الساندويش",
+          "price": 1.85
+        }
+      ],
+      "type": "burgers"
+    },
+    {
+      "title": "برجر تورتيلا (لحمة أو دجاج)",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1QYiJyppiRjetVMoruCZrvAD--VYcL_hI&sz=w1000",
+      "description": " 100 غرام لحمة أو دجاج + صلصة + جبنة + ( بصل + سلامي للحمة)",
+      "attributes": [
+        {
+          "name": "الساندويش",
+          "price": 1.85
+        }
+      ],
+      "type": "burgers"
+    },
+    {
+      "title": "برجر صدر دجاج ",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1qvw1_TGneUmGk7-PGXn2tFA_Pa1VtGY3&sz=w1000",
+      "description": " 75 غرام صدر دجاج + مايونيز + خس + جبنة",
+      "attributes": [
+        {
+          "name": "الساندويش",
+          "price": 2.25
+        }
+      ],
+      "type": "burgers"
+    },
+    {
+      "title": "برجرالمكسيكي ",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1VN9kQM8vNym10Al8vVDqr2wEM4lMcuBM&sz=w1000",
+      "description": "200 غرام لحمة صافي + بندورة + خس + مخلل + بصل + جبنة + هالبينو + مايونيز + باربيكيو صوص",
+      "attributes": [
+        {
+          "name": "الساندويش",
+          "price": 3
+        }
+      ],
+      "type": "burgers"
+    },
+    {
+      "title": "برجر لابيتا ",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1VN9kQM8vNym10Al8vVDqr2wEM4lMcuBM&sz=w1000",
+      "description": "200 غرام لحمة صافي + بندورة + خس + مخلل + بصل + جبنة + فطر متبل + صلصة الإيطالي",
+      "attributes": [
+        {
+          "name": "الساندويش",
+          "price": 3
+        }
+      ],
+      "type": "burgers"
+    },
+    {
+      "title": "برجر دجاج الكريمي ",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1qvw1_TGneUmGk7-PGXn2tFA_Pa1VtGY3&sz=w1000",
+      "description": "200 غرام دجاج صافي + بندورة + خس + جبنة + فطر متبل + صلصة الإيطالي",
+      "attributes": [
+        {
+          "name": "الساندويش",
+          "price": 3
+        }
+      ],
+      "type": "burgers"
+    }
+  ],
+  "sandwiches/chicken": [
+    {
+      "title": "صدر دجاج بالفطر والجبنة",
+      "imageUrl": "https://drive.google.com/thumbnail?id=11xycLcJwoqrYDdFObwF0D1G8T3BISvw8&sz=w1000",
+      "description": "صدر دجاج + فطر + فليفلة + صلصة + خس + جبنة",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 1.85
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        }
+      ],
+      "type": "chicken"
+    },
+    {
+      "title": "إيطالي",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1ofyFHlevX2pwYcWta4nxrESfmBLtTT3S&sz=w1000",
+      "description": "صدر دجاج + موزاريلا + بارميزان + صلصة إيطالي + خس ",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 2
+        },
+        {
+          "name": "كبير",
+          "price": 3.5
+        }
+      ],
+      "type": "chicken"
+    },
+    {
+      "title": "كرومبو",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1k-otrF3Z_l5pZCo8DMBq_CKvIpgP9IGX&sz=w1000",
+      "description": "صدر دجاج + صلصة زعتر كرومبو + خس ",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 1.85
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        }
+      ],
+      "type": "chicken"
+    },
+    {
+      "title": "شيش",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1toHv1xRksMKuIKD3xfezb__K99YvZ_2n&sz=w1000",
+      "description": "صدر دجاج + مخلل + بطاطا + صوص شيش",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 1.85
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        }
+      ],
+      "type": "chicken"
+    },
+    {
+      "title": "فاهيتا",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1aK5s5xavo9ntNPpWLBY53bQWxkY1bhWe&sz=w1000",
+      "description": "صدر دجاج + فليفلة + صلصة + خس + مخلل + جبنة",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 1.85
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        }
+      ],
+      "type": "chicken"
+    }
+  ],
+  "sandwiches/shawerma": [
+    {
+      "title": "كلاسيك",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1ZZ7ngzxuiFwUaDvn7oI_ohavdsghRx2y&sz=w1000",
+      "description": "",
+      "attributes": [],
+      "type": "shawerma"
+    },
+    {
+      "title": "كرومبو (زعتر أخضر)",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1VCQenKcqyeiZTUrYtnbkcr3sMjSPTdUg&sz=w1000",
+      "description": "",
+      "attributes": [],
+      "type": "shawerma"
+    },
+    {
+      "title": "زووم زووم (دجاج بالفطر)",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1Nf9IalOhcUEC7qxhLtNVw90L3l9Wo9OC&sz=w1000",
+      "description": "",
+      "attributes": [],
+      "type": "shawerma"
+    },
+    {
+      "title": "ساندويش كبير",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1y1CtIZm87VvWr2ChdOgCZomgqYFwokzE&sz=w1000",
+      "description": "ساندويش (كرومبو أو كلاسيك أو زووم زووم ) + بطاطا + علبة مثومة",
+      "attributes": [
+        {
+          "name": "",
+          "price": 1.85
+        }
+      ],
+      "type": "shawerma"
+    },
+    {
+      "title": "وجبة دبل",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1C4dJWtHpDvfihryjM1Fg4fyEGQHgtK2c&sz=w1000",
+      "description": "ساندويش (كرومبو أو كلاسيك أو زووم زووم ) 2x + بطاطا + علبة مثومة 2x + علبة مخلل + مشروب غازي",
+      "attributes": [
+        {
+          "name": "",
+          "price": 4
+        }
+      ],
+      "type": "shawerma"
+    }
+  ],
+  "sandwiches/crispy": [
+    {
+      "title": "زنجر",
+      "imageUrl": "https://drive.google.com/thumbnail?id=171vhwF7m4twgVAk_jYHt11wI4gNBFRTG&sz=w1000",
+      "description": "ستربس صدر دجاج حار + مايونيز + خس + تيركي + جبنة",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 1.85
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        }
+      ],
+      "type": "crispy"
+    },
+    {
+      "title": "زنجر شينو",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1nyNKSa5YYbapPIFxBuyMba4_fAi4fTAF&sz=w1000",
+      "description": "ستربس صدر دجاج حار + صلصة شينو المميزة + خس + تيركي + جبنة",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 1.85
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        }
+      ],
+      "type": "crispy"
+    },
+    {
+      "title": "زنجر تورتيلا",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1TVDgNylvwfRk7oIQP85D10zeqqyHCRUh&sz=w1000",
+      "description": "ستربس صدر دجاج حار + مايونيز + تيركي + جبنة",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 1.85
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        }
+      ],
+      "type": "crispy"
+    }
+  ],
+  "sandwiches/steak": [
+    {
+      "title": "ديناميت (حار)",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1T9hEndaPWAvy4nDPppiItwP_Te1XMk_I&sz=w1000",
+      "description": "صدر دجاج + ستيك لحمة + مايونيز + خس + بندورة + جبنة ",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 2
+        },
+        {
+          "name": "كبير",
+          "price": 3.5
+        }
+      ],
+      "type": "steak"
+    },
+    {
+      "title": "مجنونة (حار)",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1CUs-gIz7WwQBgsNJBpHh-ukd6VE2La5s&sz=w1000",
+      "description": "صدر دجاج + ستيك لحمة + صلصة المجنونة الخاصة",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 2
+        },
+        {
+          "name": "كبير",
+          "price": 3.5
+        }
+      ],
+      "type": "steak"
+    },
+    {
+      "title": "ستيك لبناني",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1n5qXxBFUzd8Fu9i1RAsQ-EvVoCAqjnuH&sz=w1000",
+      "description": " ستيك لحمة + فطر + باربيكيو + مايونيز + خس + بندورة + جبنة ",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 2
+        },
+        {
+          "name": "كبير",
+          "price": 3.5
+        }
+      ],
+      "type": "steak"
+    },
+    {
+      "title": "ستيك شينو",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1bUVD4Jd6CQTKlleLxxxmh89anCj6att7&sz=w1000",
+      "description": " ستيك لحمة + صلصة شينو المميزة + خس ",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 2
+        },
+        {
+          "name": "كبير",
+          "price": 3.5
+        }
+      ],
+      "type": "steak"
+    }
+  ],
+  "sandwiches/others": [
+    {
+      "title": "لغم",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1IOxBeiWscbtUPq-UnuhFJq-0WvUDKTg3&sz=w1000",
+      "description": "هوت دوغ دجاج + بطاطا + صلصة الشيش أو صلصة الشينو أو صلصة الكرومبو أو صلصة الكاتشاب و المايونيز أو صلصة الهني ماسترد ",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 1.25
+        },
+        {
+          "name": "كبير",
+          "price": 2
+        }
+      ],
+      "type": "others"
+    },
+    {
+      "title": "ساندويش بطاطا",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1KIRqlxU7mx5sO62ZeGC-iO4NS3qUBH6O&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "صغير",
+          "price": 1.25
+        },
+        {
+          "name": "كبير",
+          "price": 2
+        }
+      ],
+      "type": "others"
+    }
+  ]
+}
