@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'sandwich', component: SandwichComponent },
   { path: 'juice', component: JuiceComponent },
   { path: 'sides', component: SidesComponent },
-  { path: '',  component:DefaultPageComponent }
+  { path: '**',  component:DefaultPageComponent }
 ];
 
 @NgModule({
