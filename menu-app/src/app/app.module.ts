@@ -8,11 +8,13 @@ import { JuiceComponent } from './components/juice/juice.component';
 import { SidesComponent } from './components/sides/sides.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DefaultPageComponent } from './components/default-page/default-page.component';
+import { OffersComponent } from './components/offers/offers.component';
 
 const routes: Routes = [
   { path: 'sandwich', component: SandwichComponent },
   { path: 'juice', component: JuiceComponent },
   { path: 'sides', component: SidesComponent },
+  {path: "offers", component: OffersComponent},
   { path: '**',  component:DefaultPageComponent }
 ];
 
@@ -22,7 +24,8 @@ const routes: Routes = [
     SandwichComponent,
     JuiceComponent,
     SidesComponent,
-    DefaultPageComponent
+    DefaultPageComponent,
+    OffersComponent
   ],
   imports: [
     BrowserModule,

@@ -73,6 +73,63 @@
   ],
   "juices": [
     {
+      "title": "بطيخ",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1PqBfGjJ61z7pSgz665y7S5dgyIKABAVe&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي (عرض خاص) \uD83D\uDD25",
+          "price": 0.9
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "فراولة",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1d_PFAXJ-Ukg4h78EakjmqbOnZb20MiMi&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي (عرض خاص) \uD83D\uDD25",
+          "price": 0.9
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "شمام",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1b4SYku5rnBoexHcu3EPyxzFLraTtHxAr&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي (عرض خاص) \uD83D\uDD25",
+          "price": 0.9
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
       "title": "أفوكادو سادة",
       "imageUrl": "https://drive.google.com/thumbnail?id=1jRbZpf64cpCS104aMHVR98bFaJhPq2um&sz=w1000",
       "description": "",
@@ -296,25 +353,6 @@
         {
           "name": "لتر",
           "price": 6
-        }
-      ]
-    },
-    {
-      "title": "فراولة",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1d_PFAXJ-Ukg4h78EakjmqbOnZb20MiMi&sz=w1000",
-      "description": "",
-      "attributes": [
-        {
-          "name": "عادي",
-          "price": 2.1
-        },
-        {
-          "name": "كبير",
-          "price": 3
-        },
-        {
-          "name": "لتر",
-          "price": 4.2
         }
       ]
     },
@@ -603,25 +641,7 @@
         }
       ]
     },
-    {
-      "title": "شمام",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1b4SYku5rnBoexHcu3EPyxzFLraTtHxAr&sz=w1000",
-      "description": "",
-      "attributes": [
-        {
-          "name": "عادي",
-          "price": 2.1
-        },
-        {
-          "name": "كبير",
-          "price": 3
-        },
-        {
-          "name": "لتر",
-          "price": 4.2
-        }
-      ]
-    },
+
     {
       "title": "شمام + برتقال + تانج",
       "imageUrl": "https://drive.google.com/thumbnail?id=1a0S7lDqzl2t7hKm2-KjYKaPE2Y9KF1Dn&sz=w1000",
@@ -682,25 +702,6 @@
     {
       "title": "شمام + جوزهند",
       "imageUrl": "https://drive.google.com/thumbnail?id=1bYXUYIHnZEZJA0aKMXsLYBS9wUo7L7z_&sz=w1000",
-      "description": "",
-      "attributes": [
-        {
-          "name": "عادي",
-          "price": 2.1
-        },
-        {
-          "name": "كبير",
-          "price": 3
-        },
-        {
-          "name": "لتر",
-          "price": 4.2
-        }
-      ]
-    },
-    {
-      "title": "بطيخ",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1PqBfGjJ61z7pSgz665y7S5dgyIKABAVe&sz=w1000",
       "description": "",
       "attributes": [
         {
@@ -1332,6 +1333,50 @@
         }
       ],
       "type": "others"
+    }
+  ],
+  "offers": [
+    {
+      "title": "مشروبات الصيف",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1bi3zW8g39_NnAkc4iSP_o7N4uZN_Kboq&sz=w1000",
+      "description": "الاصناف المتاحة: بطيخ - شمام - شمام مع بطيخ - فراولة - فراولة بطيخ - كوشو (بطيخ مع قشور الحمضيات) - ريد بيرري - ريد بيرري مع فراولة",
+      "attributes": [
+        {
+          "name": "",
+          "price": 0.9
+        }
+      ]
+    },
+    {
+      "title": "عرض اللغم",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1-yGC2Pf2CN0dM3P1kXUpyZfymGAx0OkI&sz=w1000",
+      "description": "هوت دوغ دجاج + بطاطا + صلصة الشيش أو صلصة الشينو أو صلصة الكرومبو أو صلصة الكاتشاب و المايونيز أو صلصة الهني ماسترد مع علبة بطاطا بالاضافة الى مشروب غازي",
+      "attributes": [
+        {
+          "name": "",
+          "price": 2.85
+        }
+      ]
+    },{
+      "title": "الستربس برجر",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1jT1neoZ9sV0JrWFsAtSImDvUuplKedM-&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "",
+          "price": 1.25
+        }
+      ]
+    },{
+      "title": "5 قطع ستربس",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1GuPSrXdWHJP21nwUMjhhGy08uS2b3pIV&sz=w1000",
+      "description": "5 قطع دجاج ستربس مع بطاطا و علبتين صلصة و قطعة خبز",
+      "attributes": [
+        {
+          "name": "",
+          "price": 4.5
+        }
+      ]
     }
   ]
 }
