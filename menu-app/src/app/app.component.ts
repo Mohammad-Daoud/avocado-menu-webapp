@@ -1,5 +1,6 @@
 import {Component, HostListener, Inject, OnInit, Renderer2} from '@angular/core';
 import { DOCUMENT } from '@angular/common';
+import { ImageModalService, ImageModalData } from './services/image-modal.service';
 
 @Component({
   selector: 'app-root',
@@ -7,11 +8,17 @@ import { DOCUMENT } from '@angular/common';
   styleUrls: ['./app.component.css']  // Ensure this is plural `styleUrls`
 })
 export class AppComponent  implements OnInit {
+  modalData: ImageModalData | null = null;
+  modalOpen = false;
   title = 'menu-app';
 
-  constructor(@Inject(DOCUMENT) private document: Document, private renderer: Renderer2) {
+  constructor(@Inject(DOCUMENT) private document: Document, private renderer: Renderer2, private imageModalService: ImageModalService) {
     this.document.documentElement.lang = 'ar';
     this.document.documentElement.dir = 'rtl';
+    this.imageModalService.modalData$.subscribe(data => {
+      this.modalData = data;
+      this.modalOpen = !!data;
+    });
   }
   windowScrolled: boolean = false;
   scrollProgress: number = 0;
@@ -40,7 +47,13 @@ export class AppComponent  implements OnInit {
       this.renderer.removeClass(navbarCollapse, 'show');
     }
   }
+  closeModal() {
+    this.imageModalService.close();
+  }
 
+  openModal(image: ImageModalData): void {
+    this.imageModalService.open(image);
+  }
   scrollToTop(): void {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }

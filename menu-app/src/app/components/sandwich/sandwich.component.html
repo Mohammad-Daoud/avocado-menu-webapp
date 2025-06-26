@@ -59,6 +59,7 @@
                       [src]="sandwich.imageUrl"
                       alt="{{sandwich.title}}"
                       class="img-fluid"
+                        style="cursor:pointer" (click)="openImageModal(sandwich)"
                     />
                   </div>
                   <div class="col-12 card-body">
