@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {MenuService} from "../../services/menu.service";
+import {ImageModalService} from "../../services/image-modal.service";
 
 @Component({
   selector: 'sandwich',
@@ -12,7 +13,7 @@ export class SandwichComponent  {
   activeType: string | null = null;
 
 
-  constructor(private  menuService: MenuService)  {}
+  constructor(private  menuService: MenuService, private imageModalService: ImageModalService)  {}
 
 
   onTabClick(accordionPanel: HTMLElement, type: string): void {
@@ -30,6 +31,11 @@ export class SandwichComponent  {
       });
     }
   }
-
-
+  openImageModal(data: any) {
+    this.imageModalService.open({
+      imageUrl: data.imageUrl,
+      title: data.title,
+      description: data.description
+    });
+  }
 }

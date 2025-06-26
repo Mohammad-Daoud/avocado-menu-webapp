@@ -21,6 +21,22 @@
     </div>
   </nav>
 
+    <div class="modal fade" tabindex="-1" [ngClass]="{'show d-block': modalOpen}" *ngIf="modalData" (click)="closeModal()">
+        <div class="modal-dialog modal-dialog-centered" (click)="$event.stopPropagation()">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close ms-auto" (click)="closeModal()"></button>
+
+                    <h5 class="modal-title ms-auto">{{ modalData.title }}</h5>
+                </div>
+                <div class="modal-body text-center ">
+                    <img [src]="modalData.imageUrl" alt="{{modalData.title}}" class="img-container mb-2">
+                    <p *ngIf="modalData.description">{{ modalData.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
   <div class="container mt-4 content">
     <router-outlet></router-outlet>
   </div>
