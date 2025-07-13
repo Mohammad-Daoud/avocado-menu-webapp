@@ -2,11 +2,10 @@
 <div class="responsive-container">
     <div class="row">
         <div class="col-6 d-flex justify-content-center mb-4" *ngFor="let offer of offers">
-            <div class="card text-center container">
+            <div class="card text-center container" (click)="openImageModal(offer)" style=" cursor:pointer">
                 <div class="row no-gutters align-items-center flex-column">
                     <div class="col-12 img-container">
-                        <img  referrerPolicy="no-referrer" width="100%" [src]="offer.imageUrl" alt="{{offer.title}}" class="img-fluid" style="cursor:pointer"
-                              (click)="openImageModal(offer)">
+                        <img  referrerPolicy="no-referrer" width="100%" [src]="offer.imageUrl" alt="{{offer.title}}" class="img-fluid">
                     </div>
                     <div class="col-12 card-body">
                         <h5 class="card-title">{{ offer.title }}</h5>

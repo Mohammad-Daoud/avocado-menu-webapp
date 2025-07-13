@@ -12,11 +12,10 @@
 <div class="responsive-container">
   <div class="row">
     <div class="col-6 d-flex justify-content-center mb-4" *ngFor="let juice of juices">
-      <div class="card text-center container">
+      <div class="card text-center container" (click)="openImageModal(juice)" style=" cursor:pointer">
         <div class="row no-gutters align-items-center flex-column">
           <div class="col-12 img-container">
-            <img  referrerPolicy="no-referrer" [src]="juice.imageUrl" alt="{{juice.title}}" class="img-fluid" style="cursor:pointer"
-                  (click)="openImageModal(juice)">
+            <img  referrerPolicy="no-referrer" [src]="juice.imageUrl" alt="{{juice.title}}" class="img-fluid" style="cursor:pointer">
           </div>
           <div class="col-12 card-body">
             <h5 class="card-title">{{ juice.title }}</h5>

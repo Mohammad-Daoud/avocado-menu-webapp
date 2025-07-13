@@ -25,7 +25,7 @@
       "attributes": [
         {
           "name": "",
-          "price": 0.45
+          "price": 0.25
         }
       ],
       "imageUrl": "https://drive.google.com/thumbnail?id=1Vrs3XLPveyy_ucYi8WysW-PnosfvVin9&sz=w1000"
@@ -396,7 +396,7 @@
     },
     {
       "title": "سومو",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1cqNrM_OGQQJsRkk7DNnL_MCSxwA0CFbQ&sz=w1000",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1WX4h7O_0SLw1Y1F6nCaeNJqig-eFHJo6&sz=w1000",
       "description": "فراولة + شوكولاته",
       "attributes": [
         {
@@ -641,7 +641,6 @@
         }
       ]
     },
-
     {
       "title": "شمام + برتقال + تانج",
       "imageUrl": "https://drive.google.com/thumbnail?id=1a0S7lDqzl2t7hKm2-KjYKaPE2Y9KF1Dn&sz=w1000",
@@ -663,7 +662,7 @@
     },
     {
       "title": "شمام + أناناس",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1bYXUYIHnZEZJA0aKMXsLYBS9wUo7L7z_&sz=w1000",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1b4SYku5rnBoexHcu3EPyxzFLraTtHxAr&sz=w1000",
       "description": "",
       "attributes": [
         {
@@ -1339,7 +1338,7 @@
     {
       "title": "مشروبات الصيف",
       "imageUrl": "https://drive.google.com/thumbnail?id=1bi3zW8g39_NnAkc4iSP_o7N4uZN_Kboq&sz=w1000",
-      "description": "الاصناف المتاحة: بطيخ - شمام - شمام مع بطيخ - فراولة - فراولة بطيخ - كوشو (بطيخ مع قشور الحمضيات) - ريد بيرري - ريد بيرري مع فراولة",
+      "description": "الاصناف المتاحة: بطيخ - شمام - شمام مع بطيخ - فراولة - فراولة بطيخ - كوشو (بطيخ مع قشور الحمضيات)",
       "attributes": [
         {
           "name": "",
@@ -1357,7 +1356,8 @@
           "price": 2.85
         }
       ]
-    },{
+    },
+    {
       "title": "الستربس برجر",
       "imageUrl": "https://drive.google.com/thumbnail?id=1jT1neoZ9sV0JrWFsAtSImDvUuplKedM-&sz=w1000",
       "description": "",
@@ -1367,7 +1367,8 @@
           "price": 1.25
         }
       ]
-    },{
+    },
+    {
       "title": "5 قطع ستربس",
       "imageUrl": "https://drive.google.com/thumbnail?id=1GuPSrXdWHJP21nwUMjhhGy08uS2b3pIV&sz=w1000",
       "description": "5 قطع دجاج ستربس مع بطاطا و علبتين صلصة و قطعة خبز",
