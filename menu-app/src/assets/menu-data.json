@@ -73,63 +73,6 @@
   ],
   "juices": [
     {
-      "title": "بطيخ",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1PqBfGjJ61z7pSgz665y7S5dgyIKABAVe&sz=w1000",
-      "description": "",
-      "attributes": [
-        {
-          "name": "عادي (عرض خاص) \uD83D\uDD25",
-          "price": 0.9
-        },
-        {
-          "name": "كبير",
-          "price": 3
-        },
-        {
-          "name": "لتر",
-          "price": 4.2
-        }
-      ]
-    },
-    {
-      "title": "فراولة",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1d_PFAXJ-Ukg4h78EakjmqbOnZb20MiMi&sz=w1000",
-      "description": "",
-      "attributes": [
-        {
-          "name": "عادي (عرض خاص) \uD83D\uDD25",
-          "price": 0.9
-        },
-        {
-          "name": "كبير",
-          "price": 3
-        },
-        {
-          "name": "لتر",
-          "price": 4.2
-        }
-      ]
-    },
-    {
-      "title": "شمام",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1b4SYku5rnBoexHcu3EPyxzFLraTtHxAr&sz=w1000",
-      "description": "",
-      "attributes": [
-        {
-          "name": "عادي (عرض خاص) \uD83D\uDD25",
-          "price": 0.9
-        },
-        {
-          "name": "كبير",
-          "price": 3
-        },
-        {
-          "name": "لتر",
-          "price": 4.2
-        }
-      ]
-    },
-    {
       "title": "أفوكادو سادة",
       "imageUrl": "https://drive.google.com/thumbnail?id=1jRbZpf64cpCS104aMHVR98bFaJhPq2um&sz=w1000",
       "description": "",
@@ -401,15 +344,15 @@
       "attributes": [
         {
           "name": "عادي",
-          "price": 2.1
-        },
-        {
-          "name": "كبير",
           "price": 3
         },
         {
+          "name": "كبير",
+          "price": 4.5
+        },
+        {
           "name": "لتر",
-          "price": 4.2
+          "price": 6
         }
       ]
     },
@@ -429,6 +372,63 @@
         {
           "name": "لتر",
           "price": 3.5
+        }
+      ]
+    },
+    {
+      "title": "بطيخ",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1PqBfGjJ61z7pSgz665y7S5dgyIKABAVe&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "فراولة",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1d_PFAXJ-Ukg4h78EakjmqbOnZb20MiMi&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "title": "شمام",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1b4SYku5rnBoexHcu3EPyxzFLraTtHxAr&sz=w1000",
+      "description": "",
+      "attributes": [
+        {
+          "name": "عادي",
+          "price": 2.1
+        },
+        {
+          "name": "كبير",
+          "price": 3
+        },
+        {
+          "name": "لتر",
+          "price": 4.2
         }
       ]
     },
@@ -1332,20 +1332,21 @@
         }
       ],
       "type": "others"
-    }
-  ],
-  "offers": [
+    },
     {
-      "title": "مشروبات الصيف",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1bi3zW8g39_NnAkc4iSP_o7N4uZN_Kboq&sz=w1000",
-      "description": "الاصناف المتاحة: بطيخ - شمام - شمام مع بطيخ - فراولة - فراولة بطيخ - كوشو (بطيخ مع قشور الحمضيات)",
+      "title": "الوجبة الصحية",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1DkvnCH_wFzrdgdwN870-3RCb2oyoqawe&sz=w1000",
+      "description": "صدر دجاج + خضار سوتيه + قطع فواكه + صوص جانبي",
       "attributes": [
         {
           "name": "",
-          "price": 0.9
+          "price": 4.5
         }
-      ]
-    },
+      ],
+      "type": "others"
+    }
+  ],
+  "offers": [
     {
       "title": "عرض اللغم",
       "imageUrl": "https://drive.google.com/thumbnail?id=1-yGC2Pf2CN0dM3P1kXUpyZfymGAx0OkI&sz=w1000",
@@ -1354,17 +1355,6 @@
         {
           "name": "",
           "price": 2.85
-        }
-      ]
-    },
-    {
-      "title": "الستربس برجر",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1jT1neoZ9sV0JrWFsAtSImDvUuplKedM-&sz=w1000",
-      "description": "",
-      "attributes": [
-        {
-          "name": "",
-          "price": 1.25
         }
       ]
     },

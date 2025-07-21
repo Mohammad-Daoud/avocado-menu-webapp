@@ -10,7 +10,7 @@
             <h5 class="card-title">{{ side.title }}</h5>
             <div class="prices">
               <span *ngFor="let attribute of side.attributes">
-                @if(attribute.name){*{{attribute.name}}:} {{ attribute.price | number:'1.2-2' }}
+                @if(attribute.name){*{{attribute.name}}:} {{ attribute.price | number:'1.2-2' }} د.أ
               </span>
             </div>
           </div>
