@@ -3,25 +3,31 @@
     <a class="navbar-brand" href="#">
       <img src="assets/logo.png" alt="Logo" class="logo">
     </a>
-    <button class="navbar-toggler avocado-nav" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/juice" routerLinkActive="active">العصائر والكوكتيل</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/sandwich" routerLinkActive="active">الساندويشات</a>
-        </li>
-          <li class="nav-item">
-              <a class="nav-link" routerLink="/offers" routerLinkActive="active">العروض 🔥</a>
-          </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/sides" routerLinkActive="active">الطلبات الجانبية</a>
-        </li>
-      </ul>
-    </div>
+      <!-- Navbar toggler button -->
+      <button class="navbar-toggler avocado-nav" type="button"
+              (click)="isNavbarCollapsed = !isNavbarCollapsed"
+              [attr.aria-expanded]="!isNavbarCollapsed"
+              aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible navbar -->
+      <div [ngClass]="{'collapse': isNavbarCollapsed, 'navbar-collapse': true, 'show': !isNavbarCollapsed}" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/juice" routerLinkActive="active" (click)="isNavbarCollapsed = true">العصائر والكوكتيل</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/sandwich" routerLinkActive="active" (click)="isNavbarCollapsed = true">الساندويشات</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/offers" routerLinkActive="active" (click)="isNavbarCollapsed = true">العروض 🔥</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/sides" routerLinkActive="active" (click)="isNavbarCollapsed = true">الطلبات الجانبية</a>
+              </li>
+          </ul>
+      </div>
   </nav>
 
     <div class="modal fade" tabindex="-1" [ngClass]="{'show d-block': modalOpen}" *ngIf="modalData" (click)="closeModal()">
@@ -41,6 +47,20 @@
     </div>
 
   <div class="container mt-4 content">
+      <div *ngIf="slideImages.length && showSlideshow" class="slideshow-container text-center mb-3" dir="rtl">
+          <div class="d-flex justify-content-center align-items-center mb-2" style="min-height: 100px;">
+              <a routerLink="/offers" routerLinkActive="active" >
+                  <img
+                      *ngIf="slideImages.length"
+                      [@fadeSlide]
+                      [src]="slideImages[slideCurrentIndex]"
+                      class="slideshow-img img-fluid rounded shadow"
+                      alt="صورة العرض"
+                      style="max-height: 200px; max-width: 100%; cursor: pointer"
+              >
+              </a>
+          </div>
+      </div>
     <router-outlet></router-outlet>
   </div>
   <div class="to-top" (click)="scrollToTop()" [ngClass]="{ 'show-scrollTop': windowScrolled }">
@@ -51,7 +71,7 @@
 
   <footer class="bg-custom text-center py-3 mt-4 footer" style="color: #E0D11F; background-color: #652D0B; font-size: 12px">
     <div class="container">
-      <p class="mb-0">© 2024 مطعم أفوكادو, جميع الحقوق محفوظة</p>
+      <p class="mb-0">© 2025 مطعم أفوكادو, جميع الحقوق محفوظة</p>
       <p class="mb-0">فروعنا: شارع عبدالله غوشة, شارع المدينة المنورة </p>
       <p class="mb-0">للتوصيل والتواصي: <a href="tel:0785581050" style="text-decoration: none; color: white">0785581050</a></p>
     </div>

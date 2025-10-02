@@ -1348,6 +1348,39 @@
   ],
   "offers": [
     {
+      "title": "سماش برجر",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1cyA5KOErfbEQkYVQaAkhpVWjQq50n37k&sz=w1000",
+      "description": "الساندويش (200 غرام سماش برجر + مايونيز + باربيكيو + خس + بندورة + بصل + مخلل + جبنة + سلامي) مع بطاطا و (مشروب غازي او موهيتو) ",
+      "attributes": [
+        {
+          "name": "",
+          "price": 3.75
+        }
+      ]
+    },
+    {
+      "title": "عرض البرجر",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1RoaQ2pZtQ7IpU9mZnvoWZf7YuKN3OPxB&sz=w1000",
+      "description": "برجر لحمة او دجاح مع بطاطا و (مشروب غازي او موهيتو) ",
+      "attributes": [
+        {
+          "name": "",
+          "price": 3.2
+        }
+      ]
+    },
+    {
+      "title": "عرض الكابوتشا",
+      "imageUrl": "https://drive.google.com/thumbnail?id=162cyM4D0uZgaBQmO1WZP_wiz12mK2Uaw&sz=w1000",
+      "description": " الساندويش (صدر دجاج + صلصة الكابوتشا + خس + فليفلة + مخلل + جبنة + ماسترد) مع بطاطا ومشروب غازي ",
+      "attributes": [
+        {
+          "name": "",
+          "price": 2.5
+        }
+      ]
+    },
+    {
       "title": "عرض اللغم",
       "imageUrl": "https://drive.google.com/thumbnail?id=1-yGC2Pf2CN0dM3P1kXUpyZfymGAx0OkI&sz=w1000",
       "description": "هوت دوغ دجاج + بطاطا + صلصة الشيش أو صلصة الشينو أو صلصة الكرومبو أو صلصة الكاتشاب و المايونيز أو صلصة الهني ماسترد مع علبة بطاطا بالاضافة الى مشروب غازي",
@@ -1360,7 +1393,7 @@
     },
     {
       "title": "5 قطع ستربس",
-      "imageUrl": "https://drive.google.com/thumbnail?id=1GuPSrXdWHJP21nwUMjhhGy08uS2b3pIV&sz=w1000",
+      "imageUrl": "https://drive.google.com/thumbnail?id=12zYM_KFFC7vmuQQ_v_MS2nVEtaooGa8p&sz=w1000",
       "description": "5 قطع دجاج ستربس مع بطاطا و علبتين صلصة و قطعة خبز",
       "attributes": [
         {
@@ -1368,6 +1401,19 @@
           "price": 4.5
         }
       ]
+    },
+    {
+      "title": "تورتيلا برجر",
+      "imageUrl": "https://drive.google.com/thumbnail?id=1VRrbC7aP8Bdui4V8ZybDlLw6BEoIF4Ts&sz=w1000",
+      "description": "100 غرام لحمة أو دجاج + صلصة + جبنة + ( بصل + سلامي للحمة)",
+      "attributes": [
+        {
+          "name": "",
+          "price": 1.85
+        }
+      ]
     }
-  ]
+  ],
+  "slideshow": [
+    "https://drive.google.com/thumbnail?id=1A7zhflPejuidQrJ2aR_DJk9Z_Uajawf6&sz=w1000"]
 }

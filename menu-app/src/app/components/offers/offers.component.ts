@@ -34,4 +34,6 @@ export class OffersComponent implements OnInit {
       description: offer.description
     });
   }
+
+
 }
